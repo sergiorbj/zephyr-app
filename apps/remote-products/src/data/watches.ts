@@ -1,0 +1,118 @@
+import type { Watch } from '@watchvault/shared';
+
+export const watches: Watch[] = [
+  {
+    id: 'rolex-submariner',
+    brand: 'Rolex',
+    model: 'Submariner Date',
+    price: 14500,
+    currency: 'USD',
+    description:
+      'The Rolex Submariner is the reference among divers\' watches. Introduced in 1953, it was the first wristwatch waterproof to a depth of 100 metres. The Submariner embodies the historic link between Rolex and the underwater world.',
+    image: 'https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=800&q=80',
+    category: 'luxury',
+    features: [
+      'Water resistant to 300m',
+      'Cerachrom bezel insert',
+      'Oystersteel case',
+      'Self-winding movement',
+      'Power reserve: 70 hours',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'omega-speedmaster',
+    brand: 'Omega',
+    model: 'Speedmaster Professional',
+    price: 7200,
+    currency: 'USD',
+    description:
+      'The legendary Moonwatch that was worn by astronauts on every crewed NASA mission since 1965, including the Apollo 11 Moon landing. A true icon of space exploration and horological achievement.',
+    image: 'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&q=80',
+    category: 'classic',
+    features: [
+      'Manual-winding chronograph',
+      'Hesalite crystal',
+      'Tachymeter scale bezel',
+      'Water resistant to 50m',
+      'Power reserve: 48 hours',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'tag-heuer-carrera',
+    brand: 'TAG Heuer',
+    model: 'Carrera Chronograph',
+    price: 5950,
+    currency: 'USD',
+    description:
+      'Inspired by the dangerous Carrera Panamericana road race, this chronograph combines racing heritage with elegant design. Perfect for those who appreciate both speed and sophistication.',
+    image: 'https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=800&q=80',
+    category: 'sport',
+    features: [
+      'Automatic chronograph movement',
+      'Sapphire crystal',
+      'Ceramic bezel',
+      'Water resistant to 100m',
+      'Power reserve: 80 hours',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'patek-philippe-nautilus',
+    brand: 'Patek Philippe',
+    model: 'Nautilus 5711',
+    price: 35000,
+    currency: 'USD',
+    description:
+      'Designed by the legendary Gérald Genta in 1976, the Nautilus revolutionized luxury sports watches. Its distinctive porthole-inspired design and exceptional finishing make it one of the most coveted timepieces.',
+    image: 'https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=800&q=80',
+    category: 'luxury',
+    features: [
+      'Self-winding movement',
+      'Sapphire crystal case back',
+      '120m water resistance',
+      'Date display',
+      'Power reserve: 45 hours',
+    ],
+    inStock: false,
+  },
+  {
+    id: 'seiko-presage',
+    brand: 'Seiko',
+    model: 'Presage Cocktail Time',
+    price: 450,
+    currency: 'USD',
+    description:
+      'The Presage Cocktail Time collection draws inspiration from the artistry of cocktails. The stunning sunburst dial captures the essence of sophisticated evening wear at an accessible price point.',
+    image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=800&q=80',
+    category: 'classic',
+    features: [
+      'Automatic movement',
+      'Hardlex crystal',
+      'Exhibition case back',
+      'Water resistant to 50m',
+      'Power reserve: 41 hours',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'audemars-piguet-royal-oak',
+    brand: 'Audemars Piguet',
+    model: 'Royal Oak Selfwinding',
+    price: 28500,
+    currency: 'USD',
+    description:
+      'Another Gérald Genta masterpiece from 1972, the Royal Oak broke conventions with its octagonal bezel and integrated bracelet. It remains the ultimate symbol of luxury sports watch design.',
+    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=800&q=80',
+    category: 'luxury',
+    features: [
+      'Self-winding movement',
+      'Tapisserie dial pattern',
+      'Integrated bracelet',
+      'Water resistant to 50m',
+      'Power reserve: 60 hours',
+    ],
+    inStock: true,
+  },
+];

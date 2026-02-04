@@ -1,0 +1,20 @@
+{
+  "name": "remote-products",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/remote-products/src",
+  "targets": {
+    "dev": {
+      "command": "rsbuild dev",
+      "options": {
+        "cwd": "apps/remote-products"
+      }
+    },
+    "build": {
+      "command": "rsbuild build",
+      "options": {
+        "cwd": "apps/remote-products"
+      }
+    }
+  }
+}

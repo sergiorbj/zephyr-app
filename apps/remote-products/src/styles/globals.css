@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-pitch-black: #231C07;
+  --color-dark-coffee: #392A16;
+  --color-mauve-bark: #634133;
+  --color-cinnamon-wood: #B86F52;
+  --color-coral-glow: #F78764;
+  --color-cream: #FDF8F3;
+  --color-gold: #C9A962;
+}
+
+@layer base {
+  body {
+    @apply bg-pitch-black text-cream font-body antialiased;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

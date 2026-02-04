@@ -1,0 +1,302 @@
+{
+  "apps/host": {
+    "root": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "apps/host/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.executor": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/host/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.dev.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/remote-products": {
+    "root": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "apps/remote-products/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.executor": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/remote-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.dev.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

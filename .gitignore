@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Module Federation
+.federation/
+@mf-types/
+**/node_modules/.federation/
+
+# Generated type declarations (should not be in source)
+libs/**/*.d.ts
+apps/**/*.d.ts
+!libs/**/src/**/*.d.ts.bak
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.eslintcache
+.nx/cache

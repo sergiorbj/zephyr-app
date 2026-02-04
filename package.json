@@ -1,0 +1,31 @@
+{
+  "name": "watchvault",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nx run-many --target=dev --all --parallel=2",
+    "dev:host": "nx run host:dev",
+    "dev:products": "nx run remote-products:dev",
+    "build": "nx run-many --target=build --all",
+    "build:host": "nx run host:build",
+    "build:products": "nx run remote-products:build"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.24.0",
+    "@rsbuild/core": "^1.7.3",
+    "@rsbuild/plugin-react": "^1.4.5",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "autoprefixer": "^10.4.24",
+    "nx": "^22.4.5",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  }
+}
