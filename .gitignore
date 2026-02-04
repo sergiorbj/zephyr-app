@@ -38,4 +38,6 @@ npm-debug.log*
 # Cache
 .cache/
 .eslintcache
-.nx/cache
+
+# Nx
+.nx/

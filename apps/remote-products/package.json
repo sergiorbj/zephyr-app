@@ -1,6 +1,7 @@
 {
   "name": "watchvault-remote-products",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "rsbuild dev",
     "build": "rsbuild build",

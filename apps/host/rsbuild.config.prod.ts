@@ -1,14 +1,13 @@
 import { defineConfig } from '@rsbuild/core';
-import { withZephyr } from "zephyr-rsbuild-plugin";
+import { withZephyr } from 'zephyr-rsbuild-plugin';
 import { pluginReact } from '@rsbuild/plugin-react';
 import { ModuleFederationPlugin } from '@module-federation/enhanced/rspack';
+
+// Production config - uses Zephyr Cloud
 export default defineConfig({
   plugins: [pluginReact(), withZephyr()],
   server: {
-    port: 3001
-  },
-  dev: {
-    assetPrefix: 'http://localhost:3001/'
+    port: 3000
   },
   output: {
     assetPrefix: 'auto'
@@ -16,28 +15,28 @@ export default defineConfig({
   tools: {
     rspack: {
       output: {
-        uniqueName: 'remote_products'
+        uniqueName: 'watchvault_host'
       },
       plugins: [new ModuleFederationPlugin({
-        name: 'remote_products',
-        filename: 'remoteEntry.js',
+        name: 'watchvault_host',
         dts: false,
-        exposes: {
-          './ProductGrid': './src/components/ProductGrid.tsx',
-          './ProductCard': './src/components/ProductCard.tsx',
-          './ProductDetail': './src/components/ProductDetail.tsx'
+        remotes: {
+          remote_products: 'remote_products@https://sergio-b-9-watchvault-remote-products-zephyr-app--583a66a78-ze.zephyrcloud.app/mf-manifest.json'
         },
         shared: {
           react: {
             singleton: true,
+            eager: true,
             requiredVersion: false
           },
           'react-dom': {
             singleton: true,
+            eager: true,
             requiredVersion: false
           },
           'react-router-dom': {
             singleton: true,
+            eager: true,
             requiredVersion: false
           }
         }

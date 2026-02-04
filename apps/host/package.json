@@ -1,9 +1,13 @@
 {
   "name": "watchvault-host",
   "version": "1.0.0",
+  "type": "module",
+  "zephyr:dependencies": {
+    "remote_products": "watchvault-remote-products.zephyr-app.sergiorbj"
+  },
   "scripts": {
     "dev": "rsbuild dev",
-    "build": "rsbuild build",
+    "build": "rsbuild build --config rsbuild.config.prod.ts",
     "preview": "rsbuild preview"
   }
 }

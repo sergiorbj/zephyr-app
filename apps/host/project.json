@@ -11,7 +11,7 @@
       }
     },
     "build": {
-      "command": "rsbuild build",
+      "command": "rsbuild build --config rsbuild.config.prod.ts",
       "options": {
         "cwd": "apps/host"
       }
